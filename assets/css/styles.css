@@ -11,6 +11,10 @@ body {
     display: flex;
 }
 
+body, html {
+    height: 100%;
+}
+
 .sidebar {
     width: 260px;
     height: 100vh;
@@ -69,6 +73,7 @@ body {
 main {
     margin-left: 260px;
     padding: 4rem 3rem;
+    min-height: 100vh;
     width: calc(100% - 260px);
 }
 
