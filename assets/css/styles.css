@@ -12,6 +12,9 @@ body {
 }
 
 body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
     height: 100%;
 }
 
@@ -130,7 +133,6 @@ main {
     text-align: center;
 }
 
-    
     .btn-primary:hover {
         background: #38bdf8;
         color: #0f172a;
@@ -155,7 +157,7 @@ main {
     }
 
 .section-alt {
-    background: rgba(15, 23, 42, 0.6);
+    background: rgba(30, 41, 59, 0.6);
     backdrop-filter: blur(12px);
     padding: 3rem 2rem;
     margin-top: 3rem;
